@@ -31,8 +31,8 @@ The toal is [Answer]
 
 # num_1 = int(input("Add the first value: "))
 # num_2 = int(input("Add the second value: "))
-# sum = str(num_1 + num_2)
-# print("The total is: " + sum)
+# sum = (num_1 + num_2)
+# print("The total is: ", sum)
 
 """
 Ask the user to enter three
@@ -45,31 +45,29 @@ answer as The answer is
 # num_1 = int(input("Add the first number "))
 # num_2 = int(input("Add the second number "))
 # num_3 = int(input("Add the third number "))
-# total = str((num_1 + num_2) * num_3)
-# print("The answer is " + total)
+# total = (num_1 + num_2) * num_3
+# print("The answer is ", total)
 
 
-"""Ask how many slices
-of pizza the user
-started with and ask
-how many slices
-they have eaten.
-Work out how many
-slices they have left
-and display the
-answer in a user-
-friendly format.
-"""
 """Ask the user for their name and their age. Add 1 to their age
 and display the output [Name] next birthday you
 will be [new age] .
 """
+# name = input("What is your name? ")
+# age = int(input("What is your age? "))
+# print(name + " next birthday you will be " + str(age + 1 ))
+
 """
 Ask for the total price of the bill, then ask how
 many diners there are. Divide the total bill by the
 number of diners and show how much each
 person must pay.
 """
+# bill = int(input("What is the bill? "))
+# diners = int(input("How many diners there are? "))
+# total = bill / diners
+# print("The total that you have to pay is:", total)
+
 """
 Write a program
 that will ask for a
@@ -81,12 +79,26 @@ and seconds are
 in that number of
 days.
 """
+# days = int(input("How many days do you whant to convert "))
+# hours = (days * 24)
+# muninutes = (hours * 60)
+# seconds = (muninutes * 60)
+# print(f"You have {hours} hours and {muninutes} minutes and {seconds} seconds in that day")
+
 """There are 2,204 pounds in a kilogram. Ask the
 user to enter a weight in kilograms and convert it
 to pounds.
 """
+# kilograms = int(input("how many kilograms do you what to convet to pounds? "))
+# pounds = kilograms * 2.204
+# print(f"There are {pounds} pounds in {kilograms} kilograms")
+
 """
 Task the user to enter a number over 100 and then enter a number under
 10 and tell them how many times the smaller number goes into the larger
 number in a user-friendly format.
 """
+larger = int(input("Enter a number over 100: "))
+smaler = int(input("Enter a number under 10: "))
+total = larger//smaler
+print(f"{smaler} goes into {larger} {total} times")
