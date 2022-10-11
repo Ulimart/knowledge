@@ -42,6 +42,13 @@ this total by the third. Display the
 answer as The answer is
 [answer]
 """
+# num_1 = int(input("Add the first number "))
+# num_2 = int(input("Add the second number "))
+# num_3 = int(input("Add the third number "))
+# total = str((num_1 + num_2) * num_3)
+# print("The answer is " + total)
+
+
 """Ask how many slices
 of pizza the user
 started with and ask
