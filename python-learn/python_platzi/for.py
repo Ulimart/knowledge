@@ -14,5 +14,9 @@
 # for contador in range(1000):
 #     print(contador)
 
-for i in range(10):
-    print(i * 11)
+# for i in range(10):
+#     print(i * 11)
+
+nombre = input("Escrube tu nombre: ")
+for letra in nombre:
+    print(letra)
